@@ -10,10 +10,5 @@ def scrape():
     data = []
     for i in random.randint(99, 999):
         print(i)
-    with open("scrapper_2.csv", "w") as f:
-        csvwriter = csv.writer(f)
-        csvwriter.writerow(headers)
 
 scrape()
-
-
